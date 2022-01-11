@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./img/background.png) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.perfil {
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 120px auto;
+    
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+form input {
+    width: 90%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border: none;
+}
+
+form .checkbox {
+    margin-top: 10px;
+    width: auto;
+}
+
+form .button {
+    background-color: rgb(75, 75, 214);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 70%;
+}
+
+form .button:hover {
+    background-color:rgb(42, 42, 173) ;
+}
+
+
+
+
